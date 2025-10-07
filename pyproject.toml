@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teler"
+version = "0.2.0"
+description = "A helper library for FreJun Teler"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name="FreJun", email="robin@frejun.com" }]
+dependencies = ["websockets>=10.0", "httpx>=0.20.0", "respx>=0.18.0"]
+keywords = ["frejun", "teler", "sdk", "voip", "streaming"]
+
+[project.urls]
+Homepage = "https://github.com/frejun-tech/teler-py"
+
+[project.optional-dependencies]
+test = [
+  "pytest>=7.0.0",
+  "pytest-asyncio>=0.23",
+]
