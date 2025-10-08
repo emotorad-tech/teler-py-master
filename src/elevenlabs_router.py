@@ -17,7 +17,8 @@ ELEVENLABS_AGENT_ID = "agent_0501k6d1c9fhejpb7rfcs2whhgqt"
 ELEVENLABS_WEBSOCKET_URL = f"wss://api.elevenlabs.io/v1/convai/conversation?agent_id={ELEVENLABS_AGENT_ID}"
 
 TELER_API_KEY = "9b5c251fbe0e8c1a3034ec0ec55d8bb3b64f97c64670850eaf3a604c9881549e"
-BACKEND_DOMAIN = "hypobranchial-arlinda-homelike.ngrok-free.dev"
+# BACKEND_DOMAIN = "hypobranchial-arlinda-homelike.ngrok-free.dev"
+BACKEND_DOMAIN = "voiceaiagent.emotorad.com"
 FROM_NUMBER = "+918065193797"
 TO_NUMBER = "+919156188065"
 
